@@ -36,7 +36,8 @@ removeQuantity(item: CartItem): void{
   if (itemForRemoval){
    filteredItems = this.removeFromCart(itemForRemoval, false); 
   }
-  this._snackBar.open('1 item removed from cart')
+  this.cart.next({ items: filteredItems });
+  this._snackBar.open('1 item removed from cart.', 'Ok', { duration: 3000})
 }
 getTotal(items: Array<CartItem>): number {
   return items
