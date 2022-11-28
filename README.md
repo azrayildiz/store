@@ -1,4 +1,7 @@
 # Store
+The project code has been developed by taking the video link below as an example.
+
+https://www.youtube.com/watch?v=Kbauf9IgsC4&list=PLnzCkUvh0xn6_j-ObK3ruDF1uu0gPCSKS&index=7&t=9938s&ab_channel=freeCodeCamp.org
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.0.
 
